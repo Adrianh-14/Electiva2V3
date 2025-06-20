@@ -17,4 +17,4 @@ jobs:
           -H "Priority: high" \
           -H "Tags: rocket,devops" \
           -d "Se ha subido nuevo código al repositorio. Commit: ${{ github.sha }}" \
-          https://ntfy.sh/devops-itla
+        https://ntfy.sh/itladevoops
